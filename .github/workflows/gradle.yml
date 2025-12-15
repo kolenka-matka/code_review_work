@@ -18,7 +18,6 @@ on:
 
 jobs:
   build:
-
     runs-on: ${{ matrix.os }} 
     permissions:
       contents: read
